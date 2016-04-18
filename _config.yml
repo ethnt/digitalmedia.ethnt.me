@@ -1,16 +1,16 @@
 ---
 title: Digital Media Portfolio
 url: http://digitalmedia.ethnt.me
-author: Ethan Turkeltaub
 timezone: America/New_York
 collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
   projects:
     title: Projects
     output: true
+  uploads:
+    title: Uploads
+    output: true
+author: Ethan Turkeltaub
 permalink: pretty
