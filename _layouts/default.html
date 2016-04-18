@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+
+    <meta name="description" content="{{ site.description }}">
+
+    <title>Ethan Turkeltaub</title>
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+    <link href="/assets/application.css" rel="stylesheet">
+
+    <script src="https://use.typekit.net/ipn2cvb.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+    <header class="header" role="header">
+      <a class="header__logo">{{ site.title }}</a>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          {% for page in site.pages %}
+            {% if page.title %}
+              <li class="nav__item">
+                <a class="nav__link" href="{{ page.url }}">{{ page.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <main class="main" role="main">
+      {{ content }}
+    </main>
+    <footer class="footer" role="footer">
+      <p class="footer__copyright">&copy; 2016 <a href="{{ site.url }}">{{ site.author }}</a>.</p>
+    </footer>
+  </body>
+</html>

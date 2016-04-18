@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<header class="projects__intro">
+  {{ content }}
+</header>
+<section class="projects">
+  {% for project in site.projects %}
+    <article class="project">
+      {{ project.title }}
+    </article>
+  {% endfor %}
+</section>
