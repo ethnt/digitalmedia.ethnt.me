@@ -10,3 +10,19 @@
 
   .project
     +container
+
+    border-top: 1px solid $color-grey
+    padding-top: rhythm(2)
+    margin-top: rhythm(2)
+
+    &__info
+      +span(4 of 12)
+
+    &__assets
+      +span(last 8 of 12)
+
+      img
+        max-width: 100%
+
+    &__title
+      font-weight: $font-weight-bold

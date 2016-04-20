@@ -1,7 +1,7 @@
 ---
 title: Projects
 permalink: "/"
-layout: project
+layout: projects
 ---
 
 I’m a student at [Marist College](http://marist.edu) pursuing a degree in computer science with a focus on software development, with minors in graphic design, information systems, and information technology.
