@@ -1,13 +1,13 @@
 html
   background: linear-gradient(7deg, #ffc09f, #ffee93, #fcf5c7, #a0ced9, #adf7b6)
   background-size: 1000% 1000%
-  animation: background 60s ease infinite
+  animation: background 45s ease infinite
 
 body
   +font-smoothing
 
   border: 10px solid rgba($color-white, 0.6)
-  color: $color-grey-dark
+  color: $color-text
   font-size: $font-size-base
   font-family: $font-family-sans-serif
   line-height: $line-height-normal
@@ -30,8 +30,13 @@ body
     background-position: 49% 0%
 
 a
-  color: $color-grey-darkest
+  border-bottom: 2px solid rgba($color-white, 0.4)
+  color: $color-text-dark
   text-decoration: none
+
+  &:hover
+    border-color: rgba($color-white, 0.6)
+    color: darken($color-white, 90%)
 
 .wf-loading
   visibility: hidden
