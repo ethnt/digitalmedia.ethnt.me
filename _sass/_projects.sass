@@ -11,9 +11,12 @@
   .project
     +container
 
-    border-top: 1px solid $color-grey
+    border-top: 1px solid rgba($color-white, 0.4)
     padding-top: rhythm(2)
     margin-top: rhythm(2)
+
+    &:first-child
+      border-top: 3px solid rgba($color-white, 0.4)
 
     &__info
       +span(4 of 12)

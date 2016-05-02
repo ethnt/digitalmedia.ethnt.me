@@ -1,14 +1,36 @@
+html
+  background: linear-gradient(7deg, #ffc09f, #ffee93, #fcf5c7, #a0ced9, #adf7b6)
+  background-size: 1000% 1000%
+  animation: background 60s ease infinite
+
 body
   +font-smoothing
 
-  background: $color-black
-  color: $color-grey
+  border: 10px solid rgba($color-white, 0.6)
+  color: $color-grey-dark
   font-size: $font-size-base
   font-family: $font-family-sans-serif
   line-height: $line-height-normal
 
+@-webkit-keyframes background
+  0%
+    background-position: 49% 0%
+  50%
+    background-position: 52% 100%
+  100%
+    background-position: 49% 0%
+
+
+@keyframes background
+  0%
+    background-position: 49% 0%
+  50%
+    background-position: 52% 100%
+  100%
+    background-position: 49% 0%
+
 a
-  color: $color-white
+  color: $color-grey-darkest
   text-decoration: none
 
 .wf-loading
