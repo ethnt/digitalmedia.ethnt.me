@@ -6,3 +6,4 @@ assets:
 - "/uploads/old-masters.jpg"
 ---
 
+I made three small changes to Pieter Brueghel the Elder's _The Harvesters_.
