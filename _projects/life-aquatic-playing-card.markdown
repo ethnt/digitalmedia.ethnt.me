@@ -6,3 +6,4 @@ assets:
 - "/uploads/playing-card.jpg"
 ---
 
+Wes Anderson's films are known for their striking color palette, symmetry, and distinct narrative style. I wanted to capture the essence of his films in this playing card for the titular character of _The Life Aquatic with Steve Zissou_.
