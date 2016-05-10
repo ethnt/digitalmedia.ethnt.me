@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign project = page %}
+
+<section class="projects">
+  <article class="project">
+    <aside class="project__info">
+      <h3 class="project__title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+      {{ project.content }}
+    </aside>
+    <section class="project__assets">
+      {% for asset in project.assets %}
+        <figure>
+          <a href="{{ asset }}"><img src="{{ asset }}"></a>
+        </figure>
+      {% endfor %}
+    </section>
+  </article>
+</section>
