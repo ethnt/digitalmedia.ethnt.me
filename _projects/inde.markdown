@@ -1,5 +1,5 @@
 ---
-title: Inde
+title: Index
 date: 2016-05-14 21:18:00 -04:00
 ---
 
